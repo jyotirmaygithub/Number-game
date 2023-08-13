@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="heading universal universal2">
+        <h1>Guess the realtion!</h1>
+        <div class="timerbox universal">
+          <span class="universal-num timersize" id="timer"></span>
+        </div>
+      </div>
+      <!-- this is gaming box -->
+      <div class="maingame universal universal2">
+        <div class="randombox universal">
+          <span id="random1" class="universal-num"></span>
+        </div>
+        <div class="universal randombox questionbox">
+          <p class="question universal-num">?</p>
+        </div>
+        <div class="randombox universal">
+          <span id="random2" class="universal-num"></span>
+        </div>
+      </div>
+      <!-- calculative symbols -->
+      <div class="universal symbolbox">
+        <img id="greaterthan" class="hover" src="./img/greater-than-button_.png" alt="" />
+        <img id="equalstoo" class="hover" src="./img/equal-to-button.png" alt="" />
+        <img id="lesserthan" class="hover" src="./img/lesser-than-button.png" alt="" />
+      </div>
+    </div>
+    <script src="./playwindow.js"></script>
+  </body>
+</html>

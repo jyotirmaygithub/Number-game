@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.universal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.universal2{
+    justify-content: space-between;
+}
+.universal-num{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #EF44B6;
+    font-family: 'Noto Serif', serif;
+}
+.playcontainer{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.gamebegin{
+    width: 80vw;
+    height: auto;
+}
+.main_container{
+    background-image: url(https://res.cloudinary.com/dkd5jyhic/image/upload/v1601143553/Assets-Numeron/numeron-bg_mm5r8c.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.heading,.maingame{
+    height: 35vh;
+    padding: 0px 200px;
+    margin-bottom: 20px;
+}
+.maingame{
+    height: 30vh;
+    padding:  0px 100px;
+}
+.heading h1{
+    color: white;
+    font-size: 90px;
+    font-family: 'Handjet', cursive;
+}
+.timerbox{
+    height: 14vh;
+    width: 8vw;
+    border: 3px white solid;
+}
+.questionbox{
+    height: 14vh;
+    width: 8vw;
+}
+.randombox{
+    background-color: white;
+    height: 25vh;
+    width: 13vw;
+}
+.questionbox{
+    background-color: transparent;
+}
+.question,#timer,.whitetext{
+    color: white;
+    
+}
+.symbolbox{
+    height: 28vh;
+}
+.gameover{
+    background-image: url(https://res.cloudinary.com/dkd5jyhic/image/upload/v1601143553/Assets-Numeron/numeron-bg_mm5r8c.png);
+    background-size: cover;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+.gameoversize{
+    width: 40vw;
+}
+.play-button{
+    width: 400px;
+    cursor: pointer;
+}
+.gameoverbox{
+    height: 12vh;
+    width: 20vw;
+    border: 3px solid white;
+}
+.hover{
+    cursor: pointer;
+}
